@@ -1,0 +1,43 @@
+.btn {
+    background-color: rgb(108, 186, 255);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: 0.4s;
+    margin-right: 20px;
+}
+
+.btn:hover {
+    background-color: rgb(62, 165, 255);
+    cursor: pointer;
+}
+
+form {
+    background-color:rgb(245, 245, 245);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+form, .submit-btn {
+    margin: 20px 0 0 0;
+}
+
+input {
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 16px;
+    margin: 10px 0 0 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.emptyList {
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: rgb(0, 243, 190);
+}
